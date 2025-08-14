@@ -5,6 +5,9 @@ I focused on understanding core commands, practicing directly in the terminal, a
 
 Alongside the lessons, I completed the OverTheWire Bandit wargame (levels 0–12) to strengthen my command line skills in real scenarios.
 
+---
+
+
 ## Key Topics Covered
 
 - **File & directory navigation**: `ls`, `cd`, `pwd`
@@ -17,8 +20,11 @@ Alongside the lessons, I completed the OverTheWire Bandit wargame (levels 0–12
 - **Text editing**: basic `vim` usage (insert, save, quit)
 - **Shortcuts & customisation**: environment variables, aliases, `export`
 
-## Practical Exercises
 
+---
+
+
+## Practical Exercises
 ### OverTheWire Bandit – Levels 0 to 12
 
 To strengthen my Linux skills, I completed the OverTheWire Bandit wargame up to level 12.  
@@ -41,6 +47,9 @@ This challenge focuses on applying commands in real scenarios such as file navig
 - **Level 12 → 13:** Extracted a compressed archive step-by-step with `xxd`, `gunzip`, `tar`, and `file`.
 
 Each level reinforced problem solving with command line tools, chaining multiple commands with pipes, and working with file permissions.
+
+
+---
 
 ## Reflections
 
