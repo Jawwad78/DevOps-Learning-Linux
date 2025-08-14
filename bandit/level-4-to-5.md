@@ -1,21 +1,12 @@
 # Bandit Level 4 → 5
 
 **Goal**  
-Navigated into unusual directories and opened a file with a specific name.
+Identify and open the only human-readable file in a directory of random files.
 
-**Key commands**  
-cd; ls; cat
+**Steps**  
+1. `cd inhere` to enter the folder.  
+2. Run `file ./*` to see file types.  
+3. Identify the ASCII text file and read it with `cat`.
 
-**Steps summary**  
-1. …
-2. …
-3. …
-
-**Pitfalls**  
-- …
-
-**Verify**  
-- Command you ran to confirm the result; expected output shape.
-
-**Notes**  
-- One thing I learned here.
+**Note**  
+The `file` command is perfect for filtering out binary noise.

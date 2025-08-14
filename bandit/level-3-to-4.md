@@ -1,21 +1,14 @@
+```markdown
 # Bandit Level 3 → 4
 
 **Goal**  
-Listed hidden files and viewed contents.
+Find a hidden file inside a hidden directory and read it.
 
-**Key commands**  
-ls -a; cat
+**Steps**  
+1. Use `ls -a` to reveal all entries, including hidden ones.  
+2. `cd inhere` to go into the hidden folder.  
+3. Run `ls -a` again to reveal `.hidden`.  
+4. `cat .hidden` to view the password.
 
-**Steps summary**  
-1. …
-2. …
-3. …
-
-**Pitfalls**  
-- …
-
-**Verify**  
-- Command you ran to confirm the result; expected output shape.
-
-**Notes**  
-- One thing I learned here.
+**Note**  
+Got used to `ls -a` to catch files that normal `ls` misses.

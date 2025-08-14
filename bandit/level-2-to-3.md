@@ -1,21 +1,11 @@
+```markdown
 # Bandit Level 2 → 3
 
 **Goal**  
-Accessed files with spaces in names using quotes or escaping.
+Read a file whose name contains spaces.
 
-**Key commands**  
-cat with quotes or escapes
-
-**Steps summary**  
-1. …
-2. …
-3. …
-
-**Pitfalls**  
-- …
-
-**Verify**  
-- Command you ran to confirm the result; expected output shape.
-
-**Notes**  
-- One thing I learned here.
+**Steps**  
+1. `ls` to find the file.  
+2. Use quotes so the shell treats it as one name:  
+   ```bash
+   cat "spaces in this filename"

@@ -1,21 +1,14 @@
+
+```markdown
 # Bandit Level 1 → 2
 
 **Goal**  
-Logged in via SSH and read a file.
+Open a file literally named `-` and get the password for the next level.
 
-**Key commands**  
-ssh; cat
+**Steps**  
+1. Log in as `bandit1`.  
+2. Check the directory contents with `ls`.  
+3. Use `./-` to treat the dash as a filename:  
+   ```bash
+   cat ./-
 
-**Steps summary**  
-1. …
-2. …
-3. …
-
-**Pitfalls**  
-- …
-
-**Verify**  
-- Command you ran to confirm the result; expected output shape.
-
-**Notes**  
-- One thing I learned here.

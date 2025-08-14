@@ -1,21 +1,10 @@
 # Bandit Level 5 → 6
 
 **Goal**  
-Identified a human-readable file using file command in a directory of binaries.
+Find a file in `/var/lib/dpkg/info` that’s owned by `bandit6` and group `bandit5`.
 
-**Key commands**  
-file
-
-**Steps summary**  
-1. …
-2. …
-3. …
-
-**Pitfalls**  
-- …
-
-**Verify**  
-- Command you ran to confirm the result; expected output shape.
-
-**Notes**  
-- One thing I learned here.
+**Steps**  
+1. Use `find` with ownership filters:  
+   ```bash
+   find /var/lib/dpkg/info -user bandit6 -group bandit5 2>/dev/null
+2. Open the matching file with cat.

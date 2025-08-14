@@ -1,21 +1,11 @@
+
+```markdown
 # Bandit Level 7 → 8
 
 **Goal**  
-Found a file owned by a specific user/group using find with -user and -group.
+Find the password by searching for the word `millionth` inside `data.txt`.
 
-**Key commands**  
-find -user … -group …
-
-**Steps summary**  
-1. …
-2. …
-3. …
-
-**Pitfalls**  
-- …
-
-**Verify**  
-- Command you ran to confirm the result; expected output shape.
-
-**Notes**  
-- One thing I learned here.
+**Steps**  
+1. Run:  
+   ```bash
+   grep -a "millionth" data.txt

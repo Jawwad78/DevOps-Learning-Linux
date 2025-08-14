@@ -1,21 +1,11 @@
+kk```markdown
 # Bandit Level 9 → 10
 
 **Goal**  
-Located a unique line in a file using sort and uniq -u.
+Extract a password from a binary file that contains human-readable text.
 
-**Key commands**  
-sort; uniq -u
-
-**Steps summary**  
-1. …
-2. …
-3. …
-
-**Pitfalls**  
-- …
-
-**Verify**  
-- Command you ran to confirm the result; expected output shape.
-
-**Notes**  
-- One thing I learned here.
+**Steps**  
+1. Run:  
+   ```bash
+   strings data.txt
+2. Look through the output for the password pattern.
