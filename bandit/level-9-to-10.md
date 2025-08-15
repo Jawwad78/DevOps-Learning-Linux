@@ -1,4 +1,4 @@
-kk```markdown
+
 # Bandit Level 9 → 10
 
 **Goal**  

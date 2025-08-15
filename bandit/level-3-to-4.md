@@ -1,4 +1,4 @@
-```markdown
+
 # Bandit Level 3 → 4
 
 **Goal**  
